@@ -1,0 +1,19 @@
+1. change directory to where you want to save folder
+cd Desktop/Programming/Python
+
+2. make folder / subfolder
+mkdir folderName/subfolderName
+
+3. make virtual environment, if you want a particular python version
+python3 -m venv project_name 
+
+4. activate virtual environment
+source project_name/bin/activate
+
+5. initialize git repository
+git init
+
+6. make a new file
+touch fileName.py
+
+7. 
