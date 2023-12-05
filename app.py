@@ -54,5 +54,9 @@ for file_name in os.listdir(pdf_dir):
 
 print(all_data_df)
 
+# Reorder DataFrame columns
+all_data_df = all_data_df[['Date', 'Item', 'Quantity', 'Price', 'Discount']]
+
+# Export the DataFrame to a CSV file
 csv_file_name = 'costco_data_output.csv'
 all_data_df.to_csv(csv_file_name, index=False)
