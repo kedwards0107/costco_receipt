@@ -53,3 +53,6 @@ for file_name in os.listdir(pdf_dir):
         all_data_df = pd.concat([all_data_df, df], ignore_index=True)
 
 print(all_data_df)
+
+csv_file_name = 'costco_data_output.csv'
+all_data_df.to_csv(csv_file_name, index=False)
