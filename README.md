@@ -2,7 +2,7 @@
 
 <h2> Summary</h2>
  <p>I wanted to analyze my yearly purchases from Costco but they do not have any way to extract the data as a spreadsheet you can only download each individual 
-  receipt as a pdf. The following code extracts the data and combines it into one spreadsheet.
+  receipt as a pdf. The following code extracts the data from the pdf and combines it into one spreadsheet.
 </p>
 
 <h3> App.py </h3>
