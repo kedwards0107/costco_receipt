@@ -1,5 +1,10 @@
 <h1> Extract receipt data from Costco PDF receipt</h1>
 
+<p>
+  I wanted to analyze my yearly purchases from Costco but they do not have any way to extract the data as a spreadsheet you can only download each individual 
+  receipt as a pdf. The following code extracts the data and combines it into one spreadsheet.
+</p>
+
 <h3> App.py </h3>
 <p>
   This code extracts data from Costco PDF receipts by using regular expressions. The regex is not perfect as some of the information is extracted incorrectly however I 
